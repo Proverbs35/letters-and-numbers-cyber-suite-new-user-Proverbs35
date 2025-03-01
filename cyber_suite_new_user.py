@@ -1,9 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
+# NAME: Nate Cancel
+# DATE: 02-28-2025
+# BRIEF DESCRIPTION: mimick account creation
 
 
 # 1. Make sure you fill out the comments above
@@ -18,15 +17,18 @@
 #       Think about how to get the length of the password
 #       Then, think about how to print out the Xs. Perhaps you can use string multiplication?
 
-
-
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+name = input("Please enter your name: ")
+user_id = input("Please enter your user id: ")
+password = input("Please enter your password: ")
+print()
+print(f" Welcome, {name}. Your id is {user_id}. ")
+print()
 
-
-
-
-
+hidden_password = 'X' * len(password)
+print(' PASSWORD: ')
+print(hidden_password)
 
 
 
@@ -34,6 +36,7 @@
 ########### END YER CODE ABOVE THIS LINE ###########
     
 
+comments - i did have to google the len() function to find a way to mulitply the password into X's
 
 ########################################
 #          SAMPLE OUTPUT
@@ -80,7 +83,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 '''
 1. This project has a bit of a speed bump (converting the password to XXXXs). What was your thought process?
 
-
+hardest one to date for sure. print statements are easy now, but the converting the password to X was very hard. 
+i had to google how to hide input with X and the len() popped up so i resreached it and it worked perfectly. 
 
 
 
